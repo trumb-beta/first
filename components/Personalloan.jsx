@@ -13,7 +13,7 @@ import {
   FaChartLine
 } from 'react-icons/fa';
 import LoanApplicationForm from './LoanApplicationForm';
-import LoanCalculator from '@/components/LoanCalculator';
+import Footer from '@/components/Footer';
 
 export default function PersonalLoanPage() {
   const [showForm, setShowForm] = useState(false);
@@ -42,6 +42,7 @@ export default function PersonalLoanPage() {
   };
 
   return (
+    <>
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-900 via-blue-800 to-blue-900 text-white">
@@ -278,5 +279,7 @@ export default function PersonalLoanPage() {
         />
       )}
     </div>
+  
+    </>
   );
 }

@@ -284,6 +284,7 @@ export default function PersonalLoanPage() {
         />
       )}
     </div>
+    <Footer/>
     </>
   );
 }

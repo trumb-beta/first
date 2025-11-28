@@ -89,26 +89,6 @@ export default function FinanceFooter() {
   return (
     <footer className="bg-[#003057] text-slate-200 text-[16px] sm:text-md md:text-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
-        {/* Application Forms */}
-        <div>
-          <p className="font-semibold text-white mb-3">Application Forms</p>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6">
-            {sections[0].columns.map((col, idx) => (
-              <ul key={idx} className="space-y-1">
-                {col.map((item) => (
-                  <li
-                    key={item}
-                    className="hover:text-white cursor-pointer leading-snug"
-                  >
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            ))}
-          </div>
-        </div>
-
-        {/* Simple rows */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 border-t border-slate-700 pt-4">
           <p className="font-semibold text-white cursor-pointer">
             Products Portfolio
