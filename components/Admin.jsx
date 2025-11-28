@@ -104,7 +104,7 @@ const ActionPasswordModal = ({ isVisible, actionName, onConfirm, onCancel, isLoa
           </p>
           <input
             type="password"
-            placeholder="एक्शन पासवर्ड (2024)"
+            placeholder="एक्शन पासवर्ड"
             value={password}
             onChange={(e) => {
               setPassword(e.target.value);
@@ -308,7 +308,7 @@ export default function AdminPanel() {
           </div>
           <input
             type="password"
-            placeholder="पासवर्ड डालें (9162)"
+            placeholder="पासवर्ड डालें "
             value={authPassword}
             onChange={(e) => setAuthPassword(e.target.value)}
             onKeyPress={(e) => e.key === 'Enter' && handleLogin()}
